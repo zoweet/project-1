@@ -1,0 +1,94 @@
+/* Reset HTML, BODY tags */
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("bg.png");
+}
+
+.header {
+    display: flex; /* turns child element into row elements */
+    padding: 15px;
+}
+
+.nav {
+    flex: 1; /* fill all remaining space */
+    text-align: right;
+}
+
+.nav a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background: #211651;
+}
+
+.vid {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 55px;
+    font-family: sans-serif ;
+    color: #211651;
+    padding: 15px;
+}
+
+.body {
+    font-size: 24px;
+    font-family: sans-serif;
+
+}
+
+.img {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+
+    background: rgba(0, 0, 0, 0.35);
+
+    margin: 300px 15px 10px 15px;
+    padding: 15px 0px 15px 0px;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-fill {
+    display: block;
+    flex: 1
+}
+
+.leftlogo{
+
+}
+
+
+

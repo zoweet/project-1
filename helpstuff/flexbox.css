@@ -1,0 +1,24 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-fill {
+    display: block;
+    flex: 1
+}
